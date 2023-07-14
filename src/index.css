@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Arnhem';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Arnhem-Normal'), url(https://static.standaard.be/Assets/Images_Upload/2020/05/05/Arnhem-Normal.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Arnhem';
+    font-style: bold;
+    font-weight: 600;
+    src: local('Arnhem-Black'), url(https://static.standaard.be/Assets/Images_Upload/2020/05/12/Arnhem-Black.woff) format('woff');
+}
+
+svg {
+    display: inline;
+}
