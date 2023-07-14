@@ -1,12 +1,12 @@
 //http://jsfiddle.net/Darker/cfzn01c6/
-import "./App.css";
+import "../App.css";
 
 import { useState, useRef, useEffect } from "react";
-import { db } from './firebase.config';
+import { db } from '../firebase.config';
 import { collection, getDocs, query } from 'firebase/firestore'
 import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import { setAnswerList, setImage, setReset, setThema } from "./Slices/testSlice";
+import { setAnswerList, setImage, setReset, setThema } from "../Slices/testSlice";
 
 function Home() {
   const [games, setGames] = useState([]);

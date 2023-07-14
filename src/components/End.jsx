@@ -1,11 +1,11 @@
 //http://jsfiddle.net/Darker/cfzn01c6/
-import "./App.css";
+import "../App.css";
 import * as DS from "@mediahuis/chameleon-react";
 import { Close, Checkmark } from "@mediahuis/chameleon-theme-wl/icons";
 import { useState, useRef, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Speelook from "./Speelook";
-import { setImage, setThema } from "./Slices/testSlice";
+import { setImage, setThema } from "../Slices/testSlice";
 
 function End() {
   const inputData = useSelector((state) => state.data.inputData);

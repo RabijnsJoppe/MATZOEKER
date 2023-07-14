@@ -1,8 +1,8 @@
 //http://jsfiddle.net/Darker/cfzn01c6/
-import "./App.css";
+import "../App.css";
 import { useLocation } from "react-router-dom";
 import { useState, useRef, useEffect } from "react";
-import Keyboard from "./components/Keyboard";
+import Keyboard from "./Keyboard";
 import { useDispatch, useSelector } from "react-redux";
 import { motion, useIsPresent, AnimatePresence } from "framer-motion";
 import {
@@ -15,11 +15,11 @@ import {
   setThema,
   setId,
   setReset
-} from "./Slices/testSlice";
+} from "../Slices/testSlice";
 import { Link, useNavigate } from "react-router-dom";
 import { ChevronLeft, Info } from 'feather-icons-react';
 import { Check, X } from "feather-icons-react/build/IconComponents";
-import { db } from './firebase.config';
+import { db } from '../firebase.config';
 import { collection, getDoc, doc } from 'firebase/firestore'
 
 function Game() {

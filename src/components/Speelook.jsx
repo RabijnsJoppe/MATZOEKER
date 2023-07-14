@@ -1,5 +1,5 @@
-import "./App.css";
-import { db } from './firebase.config';
+import "../App.css";
+import { db } from '../firebase.config';
 import { collection, getDocs, query } from 'firebase/firestore'
 import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";

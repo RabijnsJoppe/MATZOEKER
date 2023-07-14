@@ -1,10 +1,10 @@
 import React from 'react';
 import { AnimatePresence, motion, useIsPresent } from "framer-motion";
 import { useLocation, useRoutes } from "react-router-dom";
-import Game from './Game';
-import Home from './Home';
-import End from './End';
-import Allesgevonden from './Allesgevonden';
+import Game from './components/Game';
+import Home from './components/Home';
+import End from './components/End';
+import Allesgevonden from './components/Allesgevonden';
 
 
 const App = () => {
